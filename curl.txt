@@ -1,7 +1,0 @@
-// 
-// ajouter une note
-curl -H "Content-Type:text/plain" -d 'notes={"key":"baguette", "value":"prendre du pain"}' -X POST http://localhost:8080/notes.php
-// récupérer toutes les notes
-curl http://localhost:8080/notes.php?notes
-// récupérer une note
-curl http://localhost:8080/notes.php?note={"key":"baguette"}
